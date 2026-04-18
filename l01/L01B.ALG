@@ -1,6 +1,6 @@
 Algoritmo "L0B1"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
+// Disciplina   : [Linguagem e Lógica de Programação com visualG]
+// Professor   : Jailson Santos da costa  
 // Descrição   : Converter a temperatura em Celsius para Farenheight 
 // Autor(a)    : Samuel Martins Aranha 
 // Data atual  : 17/04/2026
