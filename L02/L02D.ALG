@@ -1,17 +1,17 @@
 Algoritmo "L02D"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Calcular nota e exibir se aluno foi aprovado ou nÃ£o, caso nÃ£o deve exibir a nota do exame e se foi aprovado/reprovado no mesmo 
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 17/04/2026
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
    nota1, nota2, nota3, nota4, media: real
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
    escreva ("Digite a nota do primeiro bimestre: ")
    leia(nota1)
@@ -26,17 +26,17 @@ Inicio
 
    se media>=7 entao
       escreval ("Aluno aprovado")
-      escreva ("Média", media)
+      escreva ("MÃ©dia", media)
    senao
       escreva ("")
-      escreva("Ensira a média do exame: ")
+      escreva("Ensira a mÃ©dia do exame: ")
       leia(media)
       se media<5 entao
          escreval ("Aluno reprovado: ")
-         escreva ("Média: ", media)
+         escreva ("MÃ©dia: ", media)
       senao
          escreval ("Aluno aprovado: ")
-         escreva ("Média: ", media)
+         escreva ("MÃ©dia: ", media)
       fimse
    fimse
 
