@@ -1,11 +1,11 @@
 Algoritmo "L01I"
-// Disciplina   : Lógica de programação com visualg
+// Disciplina   : LÃ³gica de programaÃ§Ã£o com visualg
 // Professor   : Jailson Santos da Costa 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Calcular e exibir a soma dos quadrados de trÃªs valores 
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 14/04/2026
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 A:real
 B:real
@@ -13,7 +13,7 @@ C:real
 resultado_final: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
 escreval ("Digite um valor")
 leia(A)
@@ -24,7 +24,7 @@ leia(C)
 
 resultado_final<- (A^2)+(B^2)+(C^2)
 
-escreva ("O valor da soma dos quadrados dos três valores é: ", resultado_final)
+escreva ("O valor da soma dos quadrados dos trÃªs valores Ã©: ", resultado_final)
 
 
 Fimalgoritmo
