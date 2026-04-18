@@ -1,11 +1,11 @@
 Algoritmo "Litros de carro"
-// Disciplina   : [LÛgica de programaÁ„o com visualg e javascript]
+// Disciplina   : [L√≥gica de programa√ß√£o com visualg ]
 // Professor   : Jailson dos Santos costa
-// DescriÁ„o   : Descobrir quantos litros um carro que faz 12 km por litro gasta ao andar determinada dist‚ncia
+// Descri√ß√£o   : Descobrir quantos litros um carro que faz 12 km por litro gasta ao andar determinada dist√¢ncia
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 04/04/2026
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis
+// Se√ß√£o de Declara√ß√µes das vari√°veis
 
 tempo_viagem:real
 velocidade: real
@@ -13,23 +13,23 @@ distancia: real
 litros_usados: real
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
 
-escreval("Descrubra a quantidade de litros que g·stara ")
+escreval("Descrubra a quantidade de litros que g√°stara ")
 escreva("")
-escreval("Por favor digite o tempo de viagem que ir· percorrer: ")
+escreval("Por favor digite o tempo de viagem que ir√° percorrer: ")
 leia(tempo_viagem)
 escreval("")
-escreval("Por favor, agora informe a velocidade mÈdia que utilizar· durante esta viagem: ")
+escreval("Por favor, agora informe a velocidade m√©dia que utilizar√° durante esta viagem: ")
 leia(velocidade)
 distancia<- tempo_viagem * velocidade
 litros_usados<- distancia/12
 escreval("")
-escreval("Resultado com bases nas informaÁıes: ")
+escreval("Resultado com bases nas informa√ß√µes: ")
 escreval (" Tempo: ", tempo_viagem)
 escreval (" Velocidade: ", velocidade, "Km/h")
-escreval (" Dist‚ncia: ", distancia)
-escreval ("As quantidade de litros gastos È: ")
+escreval (" Dist√¢ncia: ", distancia)
+escreval ("As quantidade de litros gastos √©: ")
 escreval (" litros_usados: ", litros_usados)
 escreval ("")
 
