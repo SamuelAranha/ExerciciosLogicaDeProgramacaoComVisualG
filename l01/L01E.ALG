@@ -1,11 +1,11 @@
-Algoritmo "Prestação em atraso "
-// Disciplina  : Lógica de programação através visualg e JavaScript
+Algoritmo "PrestaÃ§Ã£o em atraso "
+// Disciplina  : LÃ³gica de programaÃ§Ã£o atravÃ©s visualg 
 // Professor   : Jailson Santos da costa
-// Descrição   : Cálcula e exibe o valor da prestação atrasada
+// DescriÃ§Ã£o   : CÃ¡lcula e exibe o valor da prestaÃ§Ã£o atrasada
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 04/04/2026
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 prestacao: real
 valor: real
@@ -13,16 +13,16 @@ taxa: real
 tempo_p: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
 escreval ("Digite o valor da taxa: ")
 leia(valor)
-escreval("Digite o tempo de atraso da prestação: ")
+escreval("Digite o tempo de atraso da prestaÃ§Ã£o: ")
 leia(tempo_p)
-escreval ("Digite o valor da taxa que será acrescentada devido ao atraso")
+escreval ("Digite o valor da taxa que serÃ¡ acrescentada devido ao atraso")
 leia(taxa)
 prestacao <- valor+(valor+taxa/100)*tempo)
-escreval ("O valor da prestação é: ", prestacao)
+escreval ("O valor da prestaÃ§Ã£o Ã©: ", prestacao)
 escreva("")
 
 
