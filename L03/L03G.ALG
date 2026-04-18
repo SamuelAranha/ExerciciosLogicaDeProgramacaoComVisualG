@@ -1,11 +1,11 @@
 Algoritmo "L03g"
-// Disciplina   : Lógica de programação com visualg
+// Disciplina   : LÃ³gica de programaÃ§Ã£o com visualg
 // Professor   : Jailson Santos da Costa 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Enquanto o contador nÃ£o alcanÃ§ar o nÃºmero 15, os valores devereÃ£o ser somados e exibidos
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 11/04/2026
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 contador: inteiro
 numero1: inteiro
 numero2: inteiro
@@ -14,13 +14,13 @@ resultado: inteiro
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
 numero1<-1
 numero2<-2
 escreval(numero1, numero2)
 
-enquanto contador<15 faça
+enquanto contador<15 faÃ§a
 resultado<-numero1+numero2
 escreval(resultado)
 
