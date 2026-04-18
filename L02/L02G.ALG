@@ -1,11 +1,11 @@
 Algoritmo "l02G"
-// Disciplina   : [Linguagem e Lógica de Programação com visualG]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o com visualG]
 // Professor   : Jailson Santos da costa
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Ler quatro nÃºmeros e informar se sÃ£o dÃ­visiveis por 2 e por 3 
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 16/04/2026
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
    numero1: inteiro
    numero2: inteiro
@@ -14,64 +14,64 @@ Var
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
-   escreva ("Digite um número: ")
+   escreva ("Digite um nÃºmero: ")
    leia(numero1)
-   escreva ("Digite outro número: ")
+   escreva ("Digite outro nÃºmero: ")
    leia(numero2)
-   escreva ("Digite outro número: ")
+   escreva ("Digite outro nÃºmero: ")
    leia(numero3)
-   escreva ("Digite outro número: ")
+   escreva ("Digite outro nÃºmero: ")
    leia(numero4)
 
    se numero1 mod 2=0 entao
-      escreval ("O número ", numero1, " é divisível por 2" )
+      escreval ("O nÃºmero ", numero1, " Ã© divisÃ­vel por 2" )
    senao
-      escreval ("O número ", numero1,  " não é divisível por 2")
+      escreval ("O nÃºmero ", numero1,  " nÃ£o Ã© divisÃ­vel por 2")
    fimse
    se numero1 mod 3=0 entao
-      escreval ("O número " numero1, " é divisível por 3")
+      escreval ("O nÃºmero " numero1, " Ã© divisÃ­vel por 3")
    senao
-      escreval ("O número ", numero1, " não é divisível por 3")
+      escreval ("O nÃºmero ", numero1, " nÃ£o Ã© divisÃ­vel por 3")
    fimse
    
 
 
    se numero2 mod 2=0 entao
-      escreval ("O número ", numero2, " é divisível por 2")
+      escreval ("O nÃºmero ", numero2, " Ã© divisÃ­vel por 2")
    senao
-      escreval ("O número ", numero2, " não é divisível por 2")
+      escreval ("O nÃºmero ", numero2, " nÃ£o Ã© divisÃ­vel por 2")
    fimse
    se numero2 mod 3=0 entao
-      escreval ("O número ", numero2, " é divisível por 3")
+      escreval ("O nÃºmero ", numero2, " Ã© divisÃ­vel por 3")
    senao
-      escreval ("O número ", numero2, " não é divisível por 3")
+      escreval ("O nÃºmero ", numero2, " nÃ£o Ã© divisÃ­vel por 3")
    fimse
 
 
    se numero3 mod 2=0 entao
-      escreval ("O número ", numero3, " é divisível por 2")
+      escreval ("O nÃºmero ", numero3, " Ã© divisÃ­vel por 2")
    senao
-      escreval ("O número ", numero3, " não é divisível por 2")
+      escreval ("O nÃºmero ", numero3, " nÃ£o Ã© divisÃ­vel por 2")
    fimse
    se numero3 mod 3=0 entao
-      escreval ("O número ", numero3, " é divisível por 3")
+      escreval ("O nÃºmero ", numero3, " Ã© divisÃ­vel por 3")
    senao
-      escreval ("O número",  numero3," não é divisível por 3")
+      escreval ("O nÃºmero",  numero3," nÃ£o Ã© divisÃ­vel por 3")
    fimse
 
 
 
    se numero4 mod 2=0 entao
-      escreval ("O número ", numero4, " é divisível por 2" )
+      escreval ("O nÃºmero ", numero4, " Ã© divisÃ­vel por 2" )
    senao
-      escreval ("O número", numero4, " não é divisível por 2")
+      escreval ("O nÃºmero", numero4, " nÃ£o Ã© divisÃ­vel por 2")
    fimse
    se numero4 mod 3=0 entao
-      escreval ("O número", numero4, " é divisível por 3")
+      escreval ("O nÃºmero", numero4, " Ã© divisÃ­vel por 3")
    senao
-      escreval ("O número", numero4, " não é divisível por 3")
+      escreval ("O nÃºmero", numero4, " nÃ£o Ã© divisÃ­vel por 3")
    fimse
 
 Fimalgoritmo
