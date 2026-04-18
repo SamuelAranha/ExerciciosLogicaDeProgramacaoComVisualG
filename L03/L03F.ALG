@@ -1,11 +1,11 @@
 Algoritmo "L03f"
-// Disciplina   : LÛgica de programaÁ„o com visualg
+// Disciplina   : L√≥gica de programa√ß√£o com visualg
 // Professor   : Jailson Santos da Costa 
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
+// Descri√ß√£o   : Ler o valor da base e do expoente  e enquanto o contador n√£o alcan√ßar o valor do exp√¥nte os n√∫meros continuar√£o ser elevados 
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 13/04/2026
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
 
 contador:inteiro
 numero: inteiro
@@ -13,20 +13,20 @@ expoente: inteiro
 resultado: inteiro
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
 
 contador <-0
-escreval("Digite o valor da base para esta esponenciaÁ„o: ")
+escreval("Digite o valor da base para esta esponencia√ß√£o: ")
 leia(numero)
 escreval("")
-escreval("Digite o valor do expoente para esta esponenciaÁ„o: ")
+escreval("Digite o valor do expoente para esta esponencia√ß√£o: ")
 leia(expoente)
 
-enquanto contador<expoente faÁa
+enquanto contador<expoente fa√ßa
 resultado<-numero*numero
 contador<-contador+1
 fimenquanto
-escreva ("O resultado pra essa esponenciaÁ„o È: ", resultado )
+escreva ("O resultado pra essa esponencia√ß√£o √©: ", resultado )
 
 
 Fimalgoritmo
