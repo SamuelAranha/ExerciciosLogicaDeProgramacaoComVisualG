@@ -1,11 +1,11 @@
 Algoritmo "L01J"
-// Disciplina   : Lógica de programação com visualg
+// Disciplina   : LÃ³gica de programaÃ§Ã£o com visualg
 // Professor   : Jailson Santos da Costa 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Calcular cotaÃ§Ã£o em dolar e converters para reais
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 14/04/2026
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 dolar: real
 moeda_brasileira:real
@@ -13,18 +13,18 @@ cotacao_dolar: real
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
-escreval ("Quantos dolares você tem com você? ")
+escreval ("Quantos dolares vocÃª tem com vocÃª? ")
 leia(dolar)
-escreval ("Digite o valor da cotação do dolar atual ")
+escreval ("Digite o valor da cotaÃ§Ã£o do dolar atual ")
 leia(cotacao_dolar)
 
 moeda_brasileira<- cotacao_dolar*dolar
 
-escreval ("Você tem ao todo: R$", moeda_brasileira)
+escreval ("VocÃª tem ao todo: R$", moeda_brasileira)
 
-// cotação do dolar seria o quanto que o real tá valendo em comparação
+// cotaÃ§Ã£o do dolar seria o quanto que o real tÃ¡ valendo em comparaÃ§Ã£o
 // Anotando porque fiquei confuso nessa parte
 
 Fimalgoritmo
