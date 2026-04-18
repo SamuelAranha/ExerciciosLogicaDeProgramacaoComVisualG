@@ -1,18 +1,18 @@
 Algoritmo "L02a"
-// Disciplina   : [Linguagem e Lógica de Programação com visualG]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o com visualG]
 // Professor   : Jailson Santos da Costa
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Calcular e exibir a diferenÃ§a de dois valores recebidos 
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 08/04/2026
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
    numero1: inteiro
    numero2: inteiro
    resultado: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
    escreval("Digite um valor: ")
    leia(numero1)
@@ -23,7 +23,7 @@ Inicio
    senao
       resultado<-numero2-numero1
    fimse
-   escreval ("A diferença pra este dois números é: ", resultado)
+   escreval ("A diferenÃ§a pra este dois nÃºmeros Ã©: ", resultado)
 
 
 Fimalgoritmo
