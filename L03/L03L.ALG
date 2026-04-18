@@ -1,18 +1,18 @@
 Algoritmo "L03I"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o com visualG]
+// Professor   : Jailson Santos da Costa 
+// DescriÃ§Ã£o   : Armazena valor e atÃ© o valor ser negativo. ApÃ³s ser negativo, exibir maior e menor valores registrados. 
+// Autor(a)    : Samuel Martins Aranha 
 // Data atual  : 17/04/2026
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 numero: inteiro
 armazem1: inteiro
 armazem2:inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
 escreval ("Digite um valor: ")
 leia(numero)
@@ -24,11 +24,11 @@ leia(numero)
 se numero>armazem1 entao
 armazem1<- numero
 fimse
-até numero<0
+atÃ© numero<0
 
 se numero<0 entao
-escreval ("O número maior foi: ", armazem1)
-escreval ("O número menor foi: ", numero )
+escreval ("O nÃºmero maior foi: ", armazem1)
+escreval ("O nÃºmero menor foi: ", numero )
 fimse
 
 
