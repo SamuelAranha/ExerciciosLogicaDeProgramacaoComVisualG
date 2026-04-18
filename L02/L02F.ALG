@@ -1,11 +1,11 @@
 Algoritmo "L02F"
-// Disciplina   : [Linguagem e Lógica de Programação com visualG]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o com visualG]
 // Professor   : Jailson Santos da Costa
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Ler trÃªs valores e exibir o maior, intermediÃ¡rio, menor.
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 16/04/2026
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
    A: inteiro
    B: Inteiro
@@ -16,7 +16,7 @@ Var
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
    escreval ("Digite um valor")
    leia(A)
