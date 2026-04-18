@@ -1,22 +1,22 @@
 Algoritmo "L0B1"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Converter a temperatura em Celsius para Farenheight 
+// Autor(a)    : Samuel Martins Aranha 
 // Data atual  : 17/04/2026
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 f, c: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
 escreva ("Digite a temperatura: ")
 leia(f)
 
 c<-(f-32)*(5/9)
 
-escreva  ("F°",f, " em Celsius é: ", "C°", c)
+escreva  ("FÂ°",f, " em Celsius Ã©: ", "CÂ°", c)
 
 
 
