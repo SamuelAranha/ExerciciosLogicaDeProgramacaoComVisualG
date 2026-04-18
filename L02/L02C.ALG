@@ -1,11 +1,11 @@
 Algoritmo "L02c"
-// Disciplina   : [Linguagem e Lógica de Programação com visualg]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o com visualg]
 // Professor   : Jailson Santos da costa
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Ler quatro valores/notas e exibir se aluno foi aprovado e reprovado 
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 08/04/2026
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
    nota1: real
    nota2: real
@@ -15,7 +15,7 @@ Var
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
    escreval ("Digite a nota referente ao primeiro bimestre: ")
    leia (nota1)
