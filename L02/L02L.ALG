@@ -1,18 +1,18 @@
 Algoritmo "L02l"
-// Disciplina   : [Linguagem e Lógica de Programação com visualG]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o com visualG]
 // Professor   : Jailson Santos da costa
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Ler e informar o nome e o Sexo do usuÃ¡rio 
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 16/04/2026
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
    sexo: inteiro
    nome: caractere
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
 
    escreval ("Por favor, digite seu nome")
