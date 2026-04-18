@@ -1,19 +1,19 @@
 Algoritmo "L02K"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Jailson Santo de nascimento
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Ler, informar se nÃºmero Ã© menor que trÃªs e nÃ£o exibir nada se nÃºmero for maior que trÃªs  
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 16/04/2026
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
 
 numero: inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
 
-escreva ("Digite um número: ")
+escreva ("Digite um nÃºmero: ")
 leia(numero)
 
 se numero>3 entao
