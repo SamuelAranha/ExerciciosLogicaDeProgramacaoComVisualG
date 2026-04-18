@@ -1,18 +1,18 @@
 Algoritmo "L01D"
-// Disciplina   : Lógica de programação com visualg
+// Disciplina   : LÃ³gica de programaÃ§Ã£o com visualg
 // Professor   : Jailson Santos da Costa
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : exibir nÃºmeros impares atÃ© o contador alcanÃ§ar o nÃºmero 20 
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 11/04/2026
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
    numeros: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
-   enquanto numeros < 20 faça
+   enquanto numeros < 20 faÃ§a
       se numeros mod 2 = 1 entao
          escreval(numeros)
       fimse
