@@ -1,19 +1,19 @@
 Algoritmo "L03c"
-// Disciplina   : Lógica de programação com visualg
+// Disciplina   : LÃ³gica de programaÃ§Ã£o com visualg
 // Professor   : Jailson Santos da Costa
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Exibir nÃºmeros pares enquanto o valor nÃ£o alcanÃ§ar 500 
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 11/04/2026
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    numeros: inteiro
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreval ("Os números pares são")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreval ("Os nÃºmeros pares sÃ£o")
    numeros<-0
-   enquanto numeros<500 faça
+   enquanto numeros<500 faÃ§a
       se numeros mod 2 = 0 entao
          numeros<-numeros+1
          escreval(numeros)
