@@ -1,21 +1,21 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o com visualG]
+// Professor   : Jailson Santos da Costa
+// DescriÃ§Ã£o   : Ler valor e calcular tabuada referente ao valor
+// Autor(a)    : Samuel Martins Aranha 
 // Data atual  : 06/04/2026
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
    numero:inteiro
    contadora: inteiro
    resultado: inteiro
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreval ("Escreval o número que quer saber a tabuada")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreval ("Escreval o nÃºmero que quer saber a tabuada")
    leia(numero)
    contadora <-1
-   enquanto contadora <10 faça
+   enquanto contadora <10 faÃ§a
       contadora <- contadora+1
       resultado<- contadora*numero
       escreval (numero, " x", contadora, " =", resultado)
