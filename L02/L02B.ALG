@@ -1,28 +1,28 @@
 Algoritmo "L03b"
-// Disciplina   : [Linguagem e Lógica de Programação com visualg]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o com visualg]
 // Professor   : Jaison Santo das Costa
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Ler valores e caso ser negatico, multiplicar por menos um 
 // Autor(a)    : Samuel Aranha
 // Data atual  : 08/04/2026
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
    numero1: real
    numeronegativo: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
-   escreval ("Digite um número: ")
+   escreval ("Digite um nÃºmero: ")
    leia(numero1)
    se numero1>0 entao
-      escreval ("Seu número é positivo")
+      escreval ("Seu nÃºmero Ã© positivo")
    senao
       se numero1=0 entao
-         escreval ("Seu número é positivo")
+         escreval ("Seu nÃºmero Ã© positivo")
       senao
          numeronegativo<- numero1*-1
-         escreval("Seu número é negativo e multiplicado por -1 é: ", numeronegativo)
+         escreval("Seu nÃºmero Ã© negativo e multiplicado por -1 Ã©: ", numeronegativo)
       fimse
    fimse
 
