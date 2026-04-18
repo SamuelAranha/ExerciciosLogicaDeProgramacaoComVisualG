@@ -1,0 +1,1 @@
+Pasta separada para conter os exircícios da apostila/livro de programação Manzano (Mais especificamente o exercício intitulado L01). Nele você irá se deparar com exercícios básicos, ideais para iniciantes na lógica de programação. 
