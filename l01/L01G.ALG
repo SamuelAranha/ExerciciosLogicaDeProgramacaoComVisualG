@@ -1,11 +1,11 @@
 Algoritmo "L01g"
-// Disciplina   : lógica de programação com visualg e JavaScript
+// Disciplina   : lÃ³gica de programaÃ§Ã£o com visualg e JavaScript
 // Professor   : Jailson Santos da Costa
-// Descrição   : soma e multiplica 4 valores entre si
+// DescriÃ§Ã£o   : soma e multiplica quatro valores entre si e exibe o resultado 
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 05/04/2026
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 a:real
 b:real
@@ -24,15 +24,15 @@ bvezesc:real
 bvezesd:real
 cvezesd:real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
-escreval("Digite um número: ")
+escreval("Digite um nÃºmero: ")
 leia(a)
-escreval("Digite outro número: ")
+escreval("Digite outro nÃºmero: ")
 leia(b)
-escreval ("Digite outro número: ")
+escreval ("Digite outro nÃºmero: ")
 leia(c)
-escreval ("Digite outro número: ")
+escreval ("Digite outro nÃºmero: ")
 leia(d)
 amaisb<- a+b
 amaisc<- a+c
