@@ -1,24 +1,24 @@
 Algoritmo "L02I"
-// Disciplina   : Lógica de programação com visualg
+// Disciplina   : LÃ³gica de programaÃ§Ã£o com visualg
 // Professor   : Jailson Santos da Costa
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Ler e informar se determinado nÃºmero Ã© impar ou par
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 15/04/2026
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
    numero:inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
 
-   escreval ("Digite um número: ")
+   escreval ("Digite um nÃºmero: ")
    leia(numero)
    se numero mod 2=0 entao
-      escreval("Número par")
+      escreval("NÃºmero par")
    senao
-      escreval ("Número impar")
+      escreval ("NÃºmero impar")
    fimse
 
 Fimalgoritmo
