@@ -1,11 +1,11 @@
 Algoritmo "L03i"
-// Disciplina   : [Linguagem e Lógica de Programação visualg]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o visualg]
 // Professor   : Jailson Santos da costa
-// Descrição   :
+// DescriÃ§Ã£o   : Ler valores atÃ© o contador chegar a 10 e soma-los no final 
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 11/04/2026
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 numero1: inteiro
 numero2: inteiro
 contador: inteiro
@@ -13,15 +13,15 @@ media_aritimetica: real
 proximoNumero: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
 numero1<- 1
 numero2<-1
 contador<-1
-escreval ("Os números de 1 a 10 são ")
+escreval ("Os nÃºmeros de 1 a 10 sÃ£o ")
 escreval ("")
 escreval (contador)
-enquanto contador<10 faça
+enquanto contador<10 faÃ§a
 contador<-contador+1
 proximoNumero<-numero1+numero2
 numero2<-proximoNumero
@@ -29,10 +29,10 @@ escreval (contador)
 
 fimenquanto
 escreval("")
-escreval ("A somatória destes números é: ", proximoNumero )
+escreval ("A somatÃ³ria destes nÃºmeros Ã©: ", proximoNumero )
 escreval ("")
 media_aritimetica<-proximoNumero/contador
-escreval ("E a média aritimética é: ", media_aritimetica)
+escreval ("E a mÃ©dia aritimÃ©tica Ã©: ", media_aritimetica)
 
 
 
