@@ -1,11 +1,11 @@
 Algoritmo "L03k"
-// Disciplina   : [Linguagem e Lógica de Programação com visualG]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o com visualG]
 // Professor   : Jailson Santos da Costa
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   :  ler, calcular e exibir a soma das especificaÃ§Ãµes dos comodÃ´s enquanto o usÃ¡rio desejar 
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 12/04/2026
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 nome:caractere
 largura:real
@@ -18,7 +18,7 @@ proxCumprimento: real
 prox_area_comodo: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
 escreval ("Digite o nome do comodo: ")
 leia (nome)
@@ -34,13 +34,13 @@ escreval ("")
 area_comodo <- cumprimento*largura
 
 
-escreval ("A área do comodo é´: ", area_comodo)
-escreval ("Deseja cadastrar um novo cômodo? " )
+escreval ("A Ã¡rea do comodo Ã©Â´: ", area_comodo)
+escreval ("Deseja cadastrar um novo cÃ´modo? " )
 escreval ("Digite 1 para SIM")
-escreval ("Digite 2 para NÃO")
+escreval ("Digite 2 para NÃƒO")
 leia(resposta_continuar_programa)
 
-enquanto resposta_continuar_programa=1 faça
+enquanto resposta_continuar_programa=1 faÃ§a
 
 
 escreval ("Digite o nome do comodo: ")
@@ -56,10 +56,10 @@ prox_area_comodo<- proxLargura*proxCumprimento
 
 area_comodo<- area_comodo+prox_area_comodo
 
-escreval ("A área da residência com base nestes dados é:", area_comodo)
-escreval ("Deseja cadastrar um novo cômodo? " )
+escreval ("A Ã¡rea da residÃªncia com base nestes dados Ã©:", area_comodo)
+escreval ("Deseja cadastrar um novo cÃ´modo? " )
 escreval ("Digite 1 para SIM")
-escreval ("Digite 2 para NÃO")
+escreval ("Digite 2 para NÃƒO")
 leia(resposta_continuar_programa)
 
 nome<-nome+proxNome
