@@ -1,22 +1,22 @@
 Algoritmo "L02J"
-// Disciplina   : [Linguagem e Lógica de Programação com visualg]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o com visualg]
 // Professor   : Jailson Santos da Costa
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Ler e informar se valor estÃ¡ dentro da faixa permitida de um a nove 
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 16/04/2026
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 numero:inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
-escreval("Digite um número de  1 a 9 : ")
+escreval("Digite um nÃºmero de  1 a 9 : ")
 leia(numero)
 se (numero>9) ou (numero<1) entao
-escreval ("O valor está fora da faixa permitida ")
+escreval ("O valor estÃ¡ fora da faixa permitida ")
 senao
-escreva ("Número está dentro da faixa permitida ")
+escreva ("NÃºmero estÃ¡ dentro da faixa permitida ")
 fimse
 
 Fimalgoritmo
