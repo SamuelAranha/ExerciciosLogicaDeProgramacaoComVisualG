@@ -1,8 +1,8 @@
 Algoritmo "L02D"
 // Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
+// Professor   : Jailson Santos da Costa 
 // Descrição   : Calcular nota e exibir se aluno foi aprovado ou não, caso não deve exibir a nota do exame e se foi aprovado/reprovado no mesmo 
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : Samuel Martins Aranha 
 // Data atual  : 17/04/2026
 Var
    // Seção de Declarações das variáveis
