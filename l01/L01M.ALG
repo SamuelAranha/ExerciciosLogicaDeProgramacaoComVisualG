@@ -1,11 +1,11 @@
 Algoritmo "L01M"
-// Disciplina   : Lógica de programação com visualg
+// Disciplina   : LÃ³gica de programaÃ§Ã£o com visualg
 // Professor   : Jailson Santos da Costa 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Calcular e exibir a soma do quadrados de trÃªs valores recebidos 
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 14/04/2026
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 
 A:real
@@ -15,7 +15,7 @@ resultado_final:real
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
 escreval ("Digite um valor")
 leia (A)
@@ -26,7 +26,7 @@ leia (C)
 
 resultado_final<- (A+B+C)^2
 
-escreval ("O quadrado da soma destes três valores é: ", resultado_final)
+escreval ("O quadrado da soma destes trÃªs valores Ã©: ", resultado_final)
 
 
 
