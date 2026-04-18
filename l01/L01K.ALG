@@ -1,27 +1,27 @@
 Algoritmo "l01K"
-// Disciplina   : Lógica de programação com visualg
+// Disciplina   : LÃ³gica de programaÃ§Ã£o com visualg
 // Professor   : Jailson Santos da Costa 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Calcular cotaÃ§Ã£o do dolar e converter o real para o dolar 
 // Autor(a)    : Samuel Martins Aranha
 // Data atual  : 14/04/2026
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 dolar: real
 moeda_brasileira: real
 cotacao_dolar: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
-escreval ("Digite quantos reais você possui")
+escreval ("Digite quantos reais vocÃª possui")
 leia (moeda_brasileira)
 escreval ("Digite a cotacao do Dolar atual ")
 leia(cotacao_dolar)
 
 dolar <- moeda_brasileira/cotacao_dolar
 
-escreva ("A quantidade de dolares que você possui é :  $", dolar)
+escreva ("A quantidade de dolares que vocÃª possui Ã© :  $", dolar)
 
 
 Fimalgoritmo
